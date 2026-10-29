@@ -4,38 +4,157 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ListAhead Support</title>
+<meta name="description" content="ListAhead is a grocery list that learns how you shop. Help, tips and contact.">
+<link rel="icon" href="images/icon.png">
+<link rel="apple-touch-icon" href="images/icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
-  <h1>ListAhead Support</h1>
-  <p class="lead">ListAhead is a grocery list that learns how you shop. It organizes your list by store, shows you where to start, and suggests what you might need next.</p>
+  <header class="hero">
+    <img class="app-icon" src="images/icon.png" alt="" width="96" height="96">
+    <h1>ListAhead</h1>
+    <p class="lead">A grocery list that learns how you shop. It organizes your list by store, shows you where to start, and suggests what you might need next.</p>
+    <p class="pills"><span>No account</span><span>No ads</span><span>No tracking</span></p>
+    <nav class="jump">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Questions, bugs or ideas? Email <a href="mailto:listahead.app@gmail.com">listahead.app@gmail.com</a>. I usually reply within two business days.</p>
+  <section id="features">
+    <article class="feature">
+      <img src="images/01_home.jpg" alt="Home screen showing the list planned for the next visit, Start at Costco, and items grouped by store" width="640" height="1356" loading="lazy">
+      <div>
+        <p class="label">Start at</p>
+        <h2>Your list, organized by store.</h2>
+        <p>Give each item a preferred store, and your list groups itself by store. <strong>Start at</strong> picks the store that carries the most of what you need, so you know where to go first.</p>
+      </div>
+    </article>
+
+    <article class="feature">
+      <img src="images/02_might_need_soon.jpg" alt="Might need soon screen listing items with how often they're bought" width="640" height="1356" loading="lazy">
+      <div>
+        <p class="label">Might need soon</p>
+        <h2>Know you’re running low before you run out.</h2>
+        <p>ListAhead learns how often you buy each item (milk every 4 days, coffee every 2 weeks) and suggests what’s due. Check the ones you need and add them to your list in one tap.</p>
+      </div>
+    </article>
+
+    <article class="feature">
+      <img src="images/03_shopping_list.jpg" alt="Shopping List filtered to Costco, with an Available here section" width="640" height="1356" loading="lazy">
+      <div>
+        <p class="label">Available here</p>
+        <h2>Shop smarter. Make fewer stops.</h2>
+        <p>Add the other stores that carry an item under <strong>Also available at</strong>. While you shop at one store, <strong>Available here</strong> shows items from your list that it also carries, so you can skip the next stop.</p>
+        <p>Check items off as they go in the cart. <strong>Finish shopping</strong> saves them to Purchase History; anything you didn’t get stays on the list for next time.</p>
+      </div>
+    </article>
+
+    <article class="feature">
+      <img src="images/04_analytics.jpg" alt="Analytics showing items purchased, shopping trips, most frequently purchased items and purchase patterns" width="640" height="1356" loading="lazy">
+      <div>
+        <p class="label">Purchase History</p>
+        <h2>Your shopping habits, at a glance.</h2>
+        <p>Every trip you finish shows what you buy and how often: your trips, items purchased, the things you buy most and their purchase patterns.</p>
+      </div>
+    </article>
+
+    <article class="feature">
+      <img src="images/05_household_chores.jpg" alt="Home screen with a Household Chores group listing chores" width="640" height="1356" loading="lazy">
+      <div>
+        <p class="label">Just for fun</p>
+        <h2>Beyond groceries. Stay on top of chores.</h2>
+        <p>Add a “store” called Household Chores and check chores off like groceries. ListAhead learns how often each one comes around.</p>
+      </div>
+    </article>
   </section>
 
-  <section>
-    <h2>Frequently asked questions</h2>
+  <section id="how-it-works">
+    <h2 class="section-title">How it works</h2>
+    <div class="tips">
+      <div class="card">
+        <h3>Home</h3>
+        <ul>
+          <li>Tap a store to see just its list.</li>
+          <li><strong>Start at</strong> picks the store with most of your list.</li>
+          <li><strong>Might need soon</strong> suggests items you buy regularly.</li>
+          <li>No match in search? Add it straight from there.</li>
+          <li>Tap an item to pick a quantity first.</li>
+          <li>Touch and hold an item to edit it.</li>
+          <li>A checkmark means it’s already on your list.</li>
+          <li>Adding an item with no store asks for one first.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Items &amp; Stores</h3>
+        <ul>
+          <li><strong>Preferred Store</strong> sets where an item goes on your list.</li>
+          <li><strong>Also available at</strong> lists it under more stores.</li>
+          <li>Stores show on Home once they have items.</li>
+          <li>Start from the built-in catalog of common groceries, or type your own.</li>
+          <li>Popular US stores are already set up. Rename or archive them anytime.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Shopping List</h3>
+        <ul>
+          <li>Pick a store to shop just that store.</li>
+          <li><strong>Available here</strong>: items from other stores this one carries.</li>
+          <li><strong>Finish shopping</strong> saves what’s checked; the rest stays.</li>
+          <li>Share your list as text when someone else is doing the run.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>More</h3>
+        <ul>
+          <li><strong>Purchase History</strong> and <strong>Past Trips</strong> show what you bought.</li>
+          <li><strong>Backup &amp; Transfer</strong> moves your data to a new phone.</li>
+          <li>Everything stays on this device. No account.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <h3>Where is my data stored?</h3>
-    <p>On your iPhone. ListAhead has no account and no server. If iCloud Drive is on, a backup is also saved to your own iCloud.</p>
+  <section id="faq">
+    <h2 class="section-title">Frequently asked questions</h2>
 
-    <h3>How do I move my list to a new iPhone?</h3>
-    <p>Sign in to the same Apple ID with iCloud Drive turned on, install ListAhead and open it. It offers to restore your iCloud backup. You can also go to More → Backup &amp; Transfer → Restore from iCloud.</p>
+    <details>
+      <summary>Where is my data stored?</summary>
+      <p>On your iPhone. ListAhead has no account and no server. If iCloud Drive is on, a backup is also saved to your own iCloud.</p>
+    </details>
 
-    <h3>Can I keep my own backup file?</h3>
-    <p>Yes. Go to More → Backup &amp; Transfer to export a backup file, and restore it from the same screen.</p>
+    <details>
+      <summary>How do I move my list to a new iPhone?</summary>
+      <p>Sign in to the same Apple ID with iCloud Drive turned on, install ListAhead and open it. It offers to restore your iCloud backup. You can also go to More → Backup &amp; Transfer → Restore from iCloud.</p>
+    </details>
 
-    <h3>How does Might need soon work?</h3>
-    <p>After you've bought an item a few times, ListAhead learns how often you buy it and suggests it when it's due.</p>
+    <details>
+      <summary>Can I keep my own backup file?</summary>
+      <p>Yes. Go to More → Backup &amp; Transfer to export a backup file, and restore it from the same screen.</p>
+    </details>
 
-    <h3>What does Start at mean?</h3>
-    <p>It's the store that covers the most items on your list, so you know where to go first.</p>
+    <details>
+      <summary>Why don’t I see suggestions in Might need soon yet?</summary>
+      <p>ListAhead needs to see an item bought at least 4 times before it can tell how often you buy it. Keep using Finish shopping, and suggestions appear on their own.</p>
+    </details>
 
-    <h3>Can I use it for chores?</h3>
-    <p>Yes. Add a store called Household Chores, add chores as items, and ListAhead learns how often each one comes around.</p>
+    <details>
+      <summary>A store I added doesn’t show on Home.</summary>
+      <p>Stores appear on Home once they have items. Add an item and set this store as its Preferred Store or under Also available at.</p>
+    </details>
+
+    <details>
+      <summary>How do I remove an item or store?</summary>
+      <p>Go to More → Items or More → Stores and swipe to archive it. Archived items and stores can be restored from the same screen.</p>
+    </details>
+  </section>
+
+  <section id="contact" class="contact card">
+    <h2>Need help?</h2>
+    <p>Questions, bugs or ideas? Email <a href="mailto:listahead.app@gmail.com">listahead.app@gmail.com</a>. I usually reply within two business days.</p>
   </section>
 
   <footer>
